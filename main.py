@@ -20,7 +20,7 @@ def main():
     number_of_chars = count_chars(frankenstein)
     sorted_chars = sort_list_dicts(number_of_chars)
     print("============ BOOKBOT ============")
-    print("Analyzing book found at books/frankenstein.txt...")
+    print(f"Analyzing book found at {book_path}...")
     print("----------- Word Count ----------")
     print(f"Found {number_of_words} total words")
     print("--------- Character Count -------")
